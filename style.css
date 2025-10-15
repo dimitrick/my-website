@@ -1,10 +1,21 @@
 img {
     width: 200px;
+    height:200px;
+    filter: brightness(0.3);
+    filter: grayscale(0.25);
 }
 
 body {
     text-align: center;
     font-family: 'Arial';
-    background: beige;
+    background: rgb(46, 46, 44);
+    color:rgb(170, 170, 170)
     
+}
+
+a:link {
+    color:rgb(128, 0, 0)
+}
+a:visited {
+    color:rgb(0, 103, 0)
 }
