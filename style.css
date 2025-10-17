@@ -3,13 +3,18 @@ img {
     height:200px;
     filter: brightness(0.3);
     filter: grayscale(0.25);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1); /* Scales the image to 110% of its original size */
 }
 
 body {
     text-align: center;
     font-family: 'Arial';
-    background: rgb(46, 46, 44);
-    color:rgb(170, 170, 170)
+    background: rgb(255, 0, 221);
+    color:rgb(255, 255, 255)
     
 }
 
